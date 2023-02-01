@@ -1,0 +1,67 @@
+/*
+* File name: HW_INFO152/hw1/main.css  
+ * Purpose: INFO152-HW1, Build and Enhance “Product Discount”   * 
+ * Author: Anna Vynnyk
+ * DrexelId: av668
+ * Complete Date: 2023/01/31 */
+
+title{
+    color:red;
+}
+
+
+
+ /*#3. av668: Adding the gradient background*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(254, 254, 254),rgb(216, 218, 253),rgb(166, 192, 248),rgb(110, 135, 246),rgb(59, 93, 244),rgb(62, 62, 246));
+}
+main {
+    display: block;
+    width: 450px;
+    margin: 0 auto;
+    padding: 1em;
+    background: white;
+    border: 2px solid navy;
+}
+
+/*#2. av668: changing image width and height and placing image on the middle*/
+img {
+    border-radius: 8px;
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ /*#1. av668: Changed the color of h1 to red*/
+h1 {
+    margin-top: 0;
+    color: rgb(255, 0, 0);
+}
+label {
+    width: 10em;
+    float: left;
+    padding-right: 1em;
+    padding-bottom: .5em;
+}
+#data input {
+    float: left;
+    width: 15em;
+    margin-bottom: .5em;
+}
+#data span {
+    padding-left: .25em;
+}
+#buttons input {
+    margin-bottom: .5em;
+}
+br {
+    clear: left;
+}
+/*#3. av668: added the properties color for text and text-align to center the text*/
+h4 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}

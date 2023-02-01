@@ -1,0 +1,46 @@
+<!--
+* File name: HW_INFO152/hw1/index.html  
+ * Purpose: INFO152-HW1, Build and Enhance “Product Discount”   * 
+ * Author: Anna Vynnyk
+ * DrexelId: av668
+ * Complete Date: 2023/01/31 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Discount Calculator</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <!-- #2. av668: A local image with class attribute src and alt --> 
+    <img src="picture.png" alt="Calculation picture">
+   
+    <main>
+        <h1>Product Discount Calculator</h1>
+        <!-- #1. av668 Chanhing the method from 'post' to 'get'-->
+        <form action="display_discount.php" method="get">
+            <div id="data">
+                <label>Product Description:</label>
+                <input type="text" name="product_description"><br>
+
+                <label>List Price:</label>
+                <input type="text" name="list_price"><br>
+
+                <label>Discount Percent:</label>
+                <input type="text" name="discount_percent"><span>%</span><br>
+            </div>
+
+            <div id="buttons">
+                <label>&nbsp;</label>
+                <input type="submit" value="Calculate Discount"><br>
+            </div>
+
+        </form>
+    </main>
+        <!-- #3. av668 Added the br tag to get a line break-->
+        <br>
+            <!-- #3. av668 Added 2 h4 tags to add the text at the end of document-->
+            <h4>Thank you for using our page</h4>
+            <h4>We are looking forward the positive feedback from you!</h4><br>
+</body>
+</html>
